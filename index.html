@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de texto</title>
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/reset.css">
+  </head>
+  <body>
+    <header>
+      <img class="logo-alura" src="/assets/images/logo-alura.png" alt="Logo Alura">
+    </header>
+    
+    <main>
+      <section>
+        <textarea class="text-area" cols="41" rows="4"></textarea>
+        <div class="information">
+          <h6>Apenas letras minúsculas e sem acento.</h6>
+        </div>
+        <div class="buttons">
+          <button class="btn-encrypt" onclick="btnEncrypt()">Criptografar</button>
+          <button class="btn-decrypt" onclick="btnDecrypt()">Descriptografar</button>
+        </div>
+      </section>
+      <section>
+        <textarea class="message-area" cols="20" rows="10"></textarea>
+        <button class="btn-copy" onclick="copyText()">Copiar</button>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+
+<!-- <main class="decoder">
+      <section class="decoder__form">
+        <h1 class="decoder__form__title">Decodificador de texto</h1>
+        <p class="decoder__form__subtitle">Texto a ser decodificado:<br></p>
+        <input class="decoder__form__text" type="text" id="text" placeholder="Digite o texto aqui" required><br>
+        <div class="decoder__buttons">
+            <button class="decoder__buttons__button" type="button">Criptografar</button>
+            <button class="decoder__buttons__button" type="button">Descriptografar</button>
+        </div>
+        <h2 class="decoder__result__title">Resultado aqui:</h2>
+      </section>
+      <img src="./assets/images/tema.png" alt="Imagem de um menino com uma lupa">
+    </main> -->

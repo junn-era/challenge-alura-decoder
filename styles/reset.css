@@ -1,0 +1,11 @@
+* {
+  background: #352F44;
+  font-family: 'Roboto Mono', monospace;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 32px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
